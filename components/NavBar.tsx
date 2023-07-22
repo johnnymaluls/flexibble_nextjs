@@ -5,7 +5,7 @@ import { NavLinks } from "@/constants/constants";
 import AuthProviders from "./AuthProviders";
 
 const NavBar = () => {
-  const session = {};
+  const session = null;
   return (
     <nav className="flex flex-between items-center py-5 px-8 border-b border-nav-border gap-4">
       <div className="flex flex-start items-center flex-1 gap-10">
